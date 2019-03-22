@@ -13,7 +13,7 @@
         color: black;
     }
     
-    body {display: table;}
+    .parent {display: table;}
 .child {
     display: table-cell;
     vertical-align: middle;
@@ -23,17 +23,19 @@
 </head>
 <body>
 
-<div style="text-align: center" class="child">
-    <a href="https://medium.com/@decanus">Blog</a>
+    <div class="parent">
+        <div style="text-align: center" class="child">
+            <a href="https://medium.com/@decanus">Blog</a>
 
-    &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;
 
-    <a href="https://github.com/decanus">Github</a>
+            <a href="https://github.com/decanus">Github</a>
 
-    &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;
 
-    <a href="https://twitter.com/deaneigenmann">Twitter</a>
-</div>
+            <a href="https://twitter.com/deaneigenmann">Twitter</a>
+        </div> 
+    </div>
 
 </body>
 </html>
