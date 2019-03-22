@@ -35,12 +35,12 @@
     </style>
     
 </head>
-<body>
+<body itemscope itemtype="https://schema.org/Person">
 
     <div class="parent">
         <div style="text-align: center" class="child">
             
-            <img src="image.jpeg" style="border-radius: 50%; max-height: 200px;"/>
+            <img itemprop="image" src="image.jpeg" style="border-radius: 50%; max-height: 200px;"/>
             
             
                 <h1 style="
@@ -48,7 +48,7 @@
         font-style: normal;
         font-weight: 400;
         font-size: 42px;
-    ">
+    " itemprop="name">
         Dean Eigenmann
     </h1>
     <span style="
@@ -60,15 +60,16 @@
     </span>
             <br /> <br />
             
-            <a href="https://medium.com/@decanus">Blog</a>
+            <link itemprop="url" href="dean.eigenmann.me">
+            <a itemprop="sameAs" href="https://medium.com/@decanus">Blog</a>
 
             &nbsp;
 
-            <a href="https://github.com/decanus">Github</a>
+            <a itemprop="sameAs" href="https://github.com/decanus">Github</a>
 
             &nbsp;
 
-            <a href="https://twitter.com/deaneigenmann">Twitter</a>
+            <a itemprop="sameAs" href="https://twitter.com/deaneigenmann">Twitter</a>
         </div> 
     </div>
 
