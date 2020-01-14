@@ -1,7 +1,7 @@
 # Site settings
 title:       Dean Eigenmann
 author:      Dean Eigenmann
-description: ""
+description: "My personal blog"
 baseurl:     ""
 url:         "https://dean.eigenmann.me"
 date_format: "%b %-d, %Y"
