@@ -4,6 +4,7 @@ title:      Time, clocks, and order.
 date:       2020-01-06 15:57:00
 summary:    A look at the notion of time in a distributed system, and its effects on ordering.
 categories: blog
+newsletter: https://decanus.substack.com/p/time-clocks-and-order
 ---
 
 > A look at the notion of time in a distributed system, and its effects on ordering.
