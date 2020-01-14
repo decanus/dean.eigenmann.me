@@ -8,7 +8,7 @@ categories: blog newsletter distributed-systems
 
 > A look at the notion of time in a distributed system, and its effects on ordering.
 
-![Leslie Lamport, background with clocks.](./assets/time_clocks/lamport_clock.png)
+![Leslie Lamport, background with clocks.](/images/time-clocks-order/lamport_clock.png)
 
 Having decided to start a newsletter on distributed systems to get back into writing, I thought about what a good first subject would be. Maybe [AZTEC protocol](https://www.aztecprotocol.com/), a confidential transactions protocol on Ethereum or [Paxos](http://lamport.azurewebsites.net/pubs/lamport-paxos.pdf), the consensus protocol designed by Leslie Lamport with a reputation of being hard to grasp. Those are all topics I will most likely write about in the future. But, for my first post I decided to go with something more fundamental: the notion of time in a distributed system and the ordering of events.
 
@@ -54,7 +54,7 @@ But what does this actually mean?
 
 Let’s break it down: we used the arrow `→` to denote the “happened before” relationship and `C` is our clock function. With that, we can translate the above condition as follows: *for every event `a`,`b`, if `a` happened before `b`, then the time of `a` is smaller than that of `b`*.
 
-  ![Diagram showing causal relationship of events and time ticks of clocks.](./assets/time_clocks/causal_graph.jpeg)
+  ![Diagram showing causal relationship of events and time ticks of clocks.](/images/time-clocks-order/causal_graph.jpeg)
 
 The converse does not hold, just because the time of an event is smaller than another, does not mean that the event happened before, they could be concurrent. In the above image, we can see events on Node α happened at time 1 and time 2. Node β had an event at its own time 1. Therefore, events on α during time 1 and 2 are concurrent to the event on β at time 1 because they were not causally related.
 
