@@ -8,6 +8,6 @@ tags: about
 <p style="text-content: center;">
 <img src="{{ site.baseurl }}/images/me.jpeg" alt="Dean Eigenmann" class="avatar" /><br /><br />
 
-I am research at [vac](https://vac.dev/) ([status](https://status.im)), and a developer at [ens](https://ens.domains).
+I am research at <a href="https://vac.dev/">vac</a> (<a href="https://status.im">status</a>), and a developer at <a href="https://ens.domains">ens</a>.
 </p>
 
