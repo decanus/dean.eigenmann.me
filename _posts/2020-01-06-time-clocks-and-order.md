@@ -99,5 +99,5 @@ I will probably be sending out this newsletter once a month.
 ---
 If you want to see what I read and summarized for this post, check out the corresponding issue on [github](https://github.com/decanus/research/issues/10). Shoutout to [@ricburton](https://twitter.com/ricburton) for the drawings & [@renelubov](https://twitter.com/renelubov) for the help!
 
-*This post was originally published through my [newsletter](https://decanus.substack.com/p/time-clocks-and-order)*
+*This post was originally published through my [newsletter](https://decanus.substack.com/p/time-clocks-and-order)*.
 
