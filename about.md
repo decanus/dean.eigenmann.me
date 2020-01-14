@@ -7,7 +7,6 @@ tags: about
 
 <p style="text-align: center;">
 <img src="{{ site.baseurl }}/images/me.jpeg" alt="Dean Eigenmann" class="avatar" /><br /><br />
-
-I am research at <a href="https://vac.dev/">vac</a> (<a href="https://status.im">status</a>) focusing on distributed messaging protocols, and a developer at <a href="https://ens.domains">ens</a>.
 </p>
 
+I am research at [vac](https://vac.dev/) ([status](https://status.im)) focusing on distributed messaging protocols, and a developer at [ens](https://ens.domains). In my free-time I write a newsletter on distributed systems on [substack](https://decanus.substack.com/). Additionally, I try to keep my research process open-source, it can all be found in a [repository](https://github.com/decanus/research).
