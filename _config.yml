@@ -7,6 +7,7 @@ url:         "https://dean.eigenmann.me"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
+ - papers_i_loved.md
 
 # Google services
 google_verification:
