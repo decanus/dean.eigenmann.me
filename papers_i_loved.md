@@ -1,9 +1,9 @@
 ---
 layout: page
-short_title: Papers I've read
+short_title: Things I've read
 title: Some of the papers I've read and enjoyed
-permalink: /papers-i-loved/
-tags: papers-i-loved
+permalink: /things-i-read/
+tags: things-i-read
 ---
 
 ...this list might also include blog posts. This is not a complete list of everything however.
