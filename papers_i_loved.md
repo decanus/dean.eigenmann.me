@@ -6,7 +6,7 @@ permalink: /papers-i-loved/
 tags: papers-i-loved
 ---
 
-...this list might also include blog posts.
+...this list might also include blog posts. This is not a complete list of everything however.
 
 # DHT / Discovery
  - [Kademlia: A Peer-to-peer Information System Based on the XOR Metric](https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf)
