@@ -20,8 +20,3 @@ tags: papers-i-read
  
 # Sharding
  - [Cross shard transactions at 10 million requests per second](https://blogs.dropbox.com/tech/2018/11/cross-shard-transactions-at-10-million-requests-per-second/)
- 
-# Writing Specifications
- - [Guidelines for Writing RFC Text on Security Considerations](https://tools.ietf.org/html/rfc3552)
- - [Key words for use in RFCs to Indicate Requirement Levels](https://tools.ietf.org/html/rfc2119)
- - [Guide for Internet Standards Writers](https://tools.ietf.org/html/rfc2360)
