@@ -13,3 +13,9 @@
 
     
 {% endfor %}
+
+{% assign page_paths = site.external_headers %}
+
+{% for page in page_paths %}
+    <a class="nav-active" href="{{ page.link }}">{{ page.title }}</a>
+{% endfor %}
