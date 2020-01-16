@@ -6,14 +6,17 @@ permalink: /papers-i-loved/
 tags: papers-i-loved
 ---
 
-Here are a list of papers, may also include blog posts, which I've read and enjoyed.
+...this list might also include blog posts.
 
 # Lamport
  - [Time, Clocks, and the Ordering of Events in a Distributed System ](https://lamport.azurewebsites.net/pubs/time-clocks.pdf)
  
-# Secure Messaging
+# Messaging
  - [SoK: Secure Messaging](http://cacr.uwaterloo.ca/techreports/2015/cacr2015-02.pdf)
  
 # DHT / Discovery
  - [Kademlia: A Peer-to-peer Information System Based on the XOR Metric](https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf)
  - [Chord: A Scalable Peer-to-peer Lookup Protocol](https://pdos.csail.mit.edu/papers/ton:chord/paper-ton.pdf)
+ 
+# Sharding
+ - [Cross shard transactions at 10 million requests per second](https://blogs.dropbox.com/tech/2018/11/cross-shard-transactions-at-10-million-requests-per-second/)
