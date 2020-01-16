@@ -7,7 +7,7 @@
     
     {% if item.short_title and page.short_title != "" %}
         <a class="nav-active" href="{{ item.url | relative_url }}">{{ item.short_title }}</a>
-    {% elseif item.title and page.title == item.title or item.title %}
+    {% elsif item.title and page.title == item.title or item.title %}
         <a class="nav-active" href="{{ item.url | relative_url }}">{{ item.title }}</a>
     {% endif %}
 
