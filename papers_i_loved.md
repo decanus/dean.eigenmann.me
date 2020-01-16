@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Some of the papers I've read and enjoyed.
+short_title: Papers I've read
+title: Some of the papers I've read and enjoyed
 permalink: /papers-i-loved/
 tags: papers-i-loved
 ---
