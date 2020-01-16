@@ -6,6 +6,8 @@ permalink: /papers-i-loved/
 tags: papers-i-loved
 ---
 
+Here are a list of papers, may also include blog posts, which I've read and enjoyed.
+
 # Lamport
  - [Time, Clocks, and the Ordering of Events in a Distributed System ](https://lamport.azurewebsites.net/pubs/time-clocks.pdf)
  
