@@ -11,6 +11,7 @@ tags: papers-i-read
 # DHT / Discovery
  - [Kademlia: A Peer-to-peer Information System Based on the XOR Metric](https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf)
  - [Chord: A Scalable Peer-to-peer Lookup Protocol](https://pdos.csail.mit.edu/papers/ton:chord/paper-ton.pdf)
+ - [Sloppy hashing and self-organizing clusters](https://www.coralcdn.org/docs/coral-iptps03.pdf)
 
 # Lamport
  - [Time, Clocks, and the Ordering of Events in a Distributed System ](https://lamport.azurewebsites.net/pubs/time-clocks.pdf)
