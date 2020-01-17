@@ -6,7 +6,7 @@ permalink: /papers-i-read/
 tags: papers-i-read
 ---
 
-...this list might also include blog posts, RFCs, etc. This is not a complete list of everything however.
+...this list might also include blog posts, RFCs, etc. This list is not exhaustive.
 
 # DHT / Discovery
  - [Kademlia: A Peer-to-peer Information System Based on the XOR Metric](https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf)
