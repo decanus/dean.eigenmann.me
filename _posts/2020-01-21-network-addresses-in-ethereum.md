@@ -2,7 +2,7 @@
 layout:     post
 title:      Network Addresses in Ethereum
 date:       2020-01-21 14:30:00
-summary:    An overview of multiaddrs, ENR & enodes
+summary:    An overview of multiaddrs, ENR & enodes.
 categories: blog
 ---
 
