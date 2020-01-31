@@ -72,7 +72,6 @@ paypal_url:
 flattr_button:
 telegram_username:
 vk_id:
-email: dean.eigenmann@icloud.com
 
 # Post sharing icons
 show_sharing_icons: true
