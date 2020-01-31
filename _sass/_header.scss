@@ -32,6 +32,7 @@
 .site-header nav a {
   color: $nav-color;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .site-header nav a:hover,
