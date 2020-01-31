@@ -1,6 +1,5 @@
 ---
 layout: default
-is_index: true
 ---
 
 # Hey!
