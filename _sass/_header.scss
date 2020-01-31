@@ -11,11 +11,12 @@
 }
 
 .site-header .site-title {
+  display: inline-block;
   font-size: $h2;
 }
 
 .site-nav {
-  padding-top: $nav-padding;
+  display: inline-block;
 }
 
 .site-header nav a {

@@ -13,7 +13,7 @@ external_headers:
  - link: https://github.com/decanus/research
    title: Research
  - link: https://distsys.substack.com/
-   title: Distributed Systems Newsletter
+   title: Newsletter
 
 # Google services
 google_verification:
