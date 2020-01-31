@@ -23,11 +23,11 @@ layout: default
 </div>
 
 <article class="post-content">
-  <blockquote>
-    <p>
+  {% if page.summary %}
+    <p class="post-summary">
       {{ page.summary }}
     </p>
-  </blockquote>
+  {% endif %}
   {{ content }}
 </article>
 
