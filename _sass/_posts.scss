@@ -46,3 +46,9 @@
 .related-post-title {
   border-bottom: thin solid #f3f3f3;
 }
+
+.post-content .post-summary {
+  font-size: $h3;
+  padding: .5rem .5rem .5rem 0;
+  font-style: italic;
+}
