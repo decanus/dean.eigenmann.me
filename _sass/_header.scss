@@ -38,6 +38,7 @@
 .site-header nav a.nav-active:hover,
 .site-header nav a.nav-active:focus,
 .site-header nav a.nav-active:active {
+  white-space: nowrap;
   color: $nav-link-color;
   opacity: 1;
   border-bottom: $nav-link-border-bottom;
