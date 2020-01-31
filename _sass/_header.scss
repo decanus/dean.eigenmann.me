@@ -13,6 +13,7 @@
 .site-header .site-title {
   display: inline-block;
   font-size: $h2;
+  text-decoration: none;
 }
 
 .site-header .site-title .title {
@@ -67,4 +68,8 @@
 
 .site-header .site-nav {
   text-align: center;
+}
+
+.social-icons-right a {
+  text-decoration: none;
 }
