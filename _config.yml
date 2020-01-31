@@ -9,7 +9,6 @@ header_image: /images/emoji.png
 header_pages:
  - papers_i_read.md
  - blog/index.html
- - about.md
 
 external_headers:
  - link: https://github.com/decanus/research
