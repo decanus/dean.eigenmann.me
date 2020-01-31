@@ -13,6 +13,6 @@ I am a researcher at [vac](https://vac.dev/) ([status](https://status.im)) focus
 
 *Previously*
 
-Security Auditor at [ZK Labs](https://zklabs.io/)
+Security research at [ZK Labs](https://zklabs.io/)
 <br />
-Software Developer at [brack.ch](https://brack.ch).
+Software developer at [brack.ch](https://brack.ch).

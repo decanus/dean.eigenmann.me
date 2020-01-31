@@ -5,6 +5,7 @@ description: ""
 baseurl:     ""
 url:         "https://dean.eigenmann.me"
 date_format: "%b %-d, %Y"
+header_image: /images/emoji.png
 header_pages:
  - about.md
  - papers_i_read.md

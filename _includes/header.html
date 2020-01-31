@@ -2,8 +2,10 @@
   <div class="mt2 wrap">
     <div class="measure">
       <a href="{{ "/" | relative_url }}" class="site-title">
-        <img src="/images/emoji.png" class="header-image"/>
+      {% if site.header_image %}
+        <img src="{{ site.header_image }}" class="header-image"/>
         &nbsp;
+      {% endif %}
         <div class="title">
           {{ site.title }}
         </div>
