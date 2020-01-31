@@ -17,4 +17,5 @@ Previously I worked as a security researcher at [ZK Labs](https://zklabs.io/) an
 - [Ultralight Beam](https://www.youtube.com/watch?v=OxEYV3fZ6Pk) (2020)
 
 *Selected Posts:*
+
  - [Time, clocks, and order.](https://dean.eigenmann.me/blog/2020/01/06/time-clocks-and-order/)
