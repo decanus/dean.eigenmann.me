@@ -7,9 +7,9 @@ url:         "https://dean.eigenmann.me"
 date_format: "%b %-d, %Y"
 header_image: /images/emoji.png
 header_pages:
- - about.md
  - papers_i_read.md
- 
+ - about.md
+
 external_headers:
  - link: https://github.com/decanus/research
    title: Research
