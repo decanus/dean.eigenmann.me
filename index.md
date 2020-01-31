@@ -10,6 +10,7 @@ I try to do my research transparently on [github](github.com/decanus/research). 
 and occasionally [summarize them](https://github.com/decanus/research/issues/10).
 
 Previously I worked as a security researcher at [ZK Labs](https://zklabs.io/) and as a developer at [brack.ch](https://brack.ch).
+I started my software development career with an internship at [spacebyte](https://spacebyte.com/).
 
 *Selected talks:*
 
