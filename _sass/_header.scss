@@ -30,6 +30,7 @@
 
 .site-header nav a {
   color: $nav-color;
+  text-decoration: none;
 }
 
 .site-header nav a:hover,
@@ -42,6 +43,7 @@
   color: $nav-link-color;
   opacity: 1;
   border-bottom: $nav-link-border-bottom;
+  text-decoration: none;
 }
 
 .site-header nav a.nav-active {
