@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/deaneigenmann
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dean.eigenmann.me
+  * I am deaneigenmann (https://keybase.io/deaneigenmann) on keybase.
+  * I have a public key ASC6UKDtIUm0_D4ultUBN7bhS-zwGqetJxslWyqZdIbINgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120c4cc4e411bed859b6395767287758b67612974832b516380154ea8aa5e7d12510a",
+      "host": "keybase.io",
+      "kid": "0120ba50a0ed2149b4fc3e2e96d50137b6e14becf01aa7ad271b255b2a997486c8360a",
+      "uid": "c1275fb5a5ade65da496ef6eaf425519",
+      "username": "deaneigenmann"
+    },
+    "merkle_root": {
+      "ctime": 1580920821,
+      "hash": "e3059c99d3e1d911e3eb383c9a11bf938f2251ff9cff7f512de281a767bc12c64cde6c8663c7918bed8dc0245b803181890a19a601d51078e399fa425cd32bfd",
+      "hash_meta": "7567f91f29c909ec36464e8a608eafdb0af95746e32996160990b5007c1e8514",
+      "seqno": 14498793
+    },
+    "service": {
+      "entropy": "9Hqzc0DjBFqDgBXPiVYZvJUC",
+      "hostname": "dean.eigenmann.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.2.0"
+  },
+  "ctime": 1580920834,
+  "expire_in": 504576000,
+  "prev": "982007cfc79df83b303df0061b67f658a8f804f908652b9e54b112d74a54a68c",
+  "seqno": 57,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgulCg7SFJtPw+LpbVATe24Uvs8BqnrScbJVsqmXSGyDYKp3BheWxvYWTESpcCOcQgmCAHz8ed+DswPfAGG2f2WKj4BPkIZSueVLES10pUpozEINYCXgaQpjXKZVGPRSuOJ+M4tZGl88w+RL3E1FDfKeElAgHCo3NpZ8RA1yKRWohs7FuHq27mOGIx7XIxaAuyoHC/U4Kvp55ZGVK2b/qTDqmUratJERfic4GHlzNDdx9n3xCX0pgMTUJLBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPTr9bE77k39J/8NjTYcBRq93WfFDJVHcbYYrMYeptPxo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/deaneigenmann
+
+==================================================================
