@@ -29,11 +29,11 @@ layout: default
 
 <article class="post-content">
 
-  {{ if page.image }}
+  {% if page.image %}
     <p>
       <img src="{{ page.image }}" alt="{{ page.title }}">
     </p>
-  {{ endif }}
+  {% endif %}
 
   {{ content }}
 </article>
