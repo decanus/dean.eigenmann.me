@@ -44,9 +44,7 @@ So we already discussed why we can’t use time in a distributed system, meaning
 
 Every node in our distributed system now has a clock. This clock ticks between every event executed, but the clock tick itself is not considered an event within our system. So for every event occurring on a node in the system, a number is assigned to that event. With this assumption we can satisfy the following **clock condition**:
 
-```
-∀a,b a → b ⟹ C(a) < C(b)
-```
+$$∀a,b a → b ⟹ C(a) < C(b)$$
 
 But what does this actually mean?
 
