@@ -24,6 +24,7 @@ layout: default
   {% else %}
     {{ minutes }} {{ site.text.post.minute_read | default: "minute read" }}
   {% endif %}
+  {% if page.newsletter %} - This post was originally published to my <a href="{{ page.newsletter }}">newsletter</a>.{% endif %}
   </span>
 </div>
 
