@@ -44,11 +44,11 @@ So we already discussed why we can’t use time in a distributed system, meaning
 
 Every node in our distributed system now has a clock. This clock ticks between every event executed, but the clock tick itself is not considered an event within our system. So for every event occurring on a node in the system, a number is assigned to that event. With this assumption we can satisfy the following **clock condition**:
 
-$$∀a,b a → b ⟹ C(a) < C(b)$$
+$$\forall a,b. \space a \rightarrow b \Longrightarrow C(a) < C(b)$$
 
 But what does this actually mean?
 
-Let’s break it down: we used the arrow `→` to denote the “happened before” relationship and `C` is our clock function. With that, we can translate the above condition as follows: *for every event `a`,`b`, if `a` happened before `b`, then the time of `a` is smaller than that of `b`*.
+Let’s break it down: we used the arrow $\rightarrow$ to denote the “happened before” relationship and $C$ is our clock function. With that, we can translate the above condition as follows: *for every event $$a$$,$$b$$, if $$a$$ happened before $$b$$, then the time of $$a$$ is smaller than that of $$b$$*.
 
   ![Diagram showing causal relationship of events and time ticks of clocks.](/images/time-clocks-order/causal_graph.jpeg)
 
@@ -56,10 +56,10 @@ The converse does not hold, just because the time of an event is smaller than an
 
 This clock condition is satisfied by the following conditions:
 
-- If `a` and `b` are events on a single node, and `a` happened before `b`, then the time of `a` should be smaller than that of `b`.
-- If `a` is a node sending a message, and `b` is the receipt of that message on another node then the time of `a` should still be smaller than that of `b`.
+- If $$a$$ and $$b$$ are events on a single node, and $$a$$ happened before $$b$$, then the time of $$a$$ should be smaller than that of $$b$$.
+- If $$a$$ is a node sending a message, and $$b$$ is the receipt of that message on another node then the time of $$a$$ should still be smaller than that of $$b$$.
 
-There is a simple solution to satisfying the above conditions: a node needs to tick its clock between events, and it must advance its clock to be later than the time contained in any received messages from other nodes if it is not. `b` can then occur after advancing the clock.
+There is a simple solution to satisfying the above conditions: a node needs to tick its clock between events, and it must advance its clock to be later than the time contained in any received messages from other nodes if it is not. $$b$$ can then occur after advancing the clock.
 
 Now comes the fun part - we can use these clocks that satisfy our clock condition to establish a total order of our entire distributed system! We simply order the events by the time given by their clocks, and for any ties, we break them using an arbitrary order.
 
