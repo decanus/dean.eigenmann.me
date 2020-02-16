@@ -12,9 +12,10 @@ and occasionally [summarize them](https://github.com/decanus/research/issues/10)
 Previously I worked as a security researcher at [ZK Labs](https://zklabs.io/) and as a developer at [brack.ch](https://brack.ch).
 I started my software development career with an internship at [spacebyte](https://spacebyte.com/).
 
-*Selected talks:*
+*Selected talks & panels:*
 
 - [Reliable Messaging over Whisper at Web3 Summit](https://www.youtube.com/watch?v=WMPw0dNyNmM) (2019)
+- [All the Truth, an Ethereum Security panel at Devcon5](https://www.youtube.com/watch?v=dHxa7qWZCYo) (2020)
 - [Ultralight Beam](https://www.youtube.com/watch?v=OxEYV3fZ6Pk) (2020)
 
 *Selected Posts:*
