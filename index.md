@@ -15,7 +15,7 @@ I started my software development career with an internship at [spacebyte](https
 *Selected talks & panels:*
 
 - [Reliable Messaging over Whisper at Web3 Summit](https://www.youtube.com/watch?v=WMPw0dNyNmM) (2019)
-- [All the Truth, an Ethereum Security panel at Devcon5](https://www.youtube.com/watch?v=dHxa7qWZCYo)
+- [All the Truth, an Ethereum Security panel at Devcon5](https://www.youtube.com/watch?v=dHxa7qWZCYo) (2020)
 - [Ultralight Beam](https://www.youtube.com/watch?v=OxEYV3fZ6Pk) (2020)
 
 *Selected Posts:*
