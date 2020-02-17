@@ -4,7 +4,6 @@ title:      The CAP Theorem
 date:       2020-02-17 16:00:00
 summary:    On consistency, availability and partition tolerance and why we can't build distributed systems that satisfy all these properties.
 categories: blog
-newsletter: @TODO
 image: /images/cap-theorem/cap-hat.png
 ---
 
