@@ -8,10 +8,6 @@ newsletter: @TODO
 image: /images/cap-theorem/cap-hat.png
 ---
 
-> On consistency, availability and partition tolerance and why we can't build distributed systems that satisfy all these properties.
-
-<!-- insert graphic with baseball cap -->
-
 In this post, we will look at the CAP theorem. If you’ve read almost anything about distributed systems, you’ve probably encountered it. But what is it really and where did it come from? In this article we will discuss what it is, its origins and some common misconceptions around the theorem itself.
 
 Before we get started, if you haven't read my previous post ["Time, clocks, and order."](https://dean.eigenmann.me/blog/2020/01/06/time-clocks-and-order/), make sure to check it out. It contains a primer on distributed systems. However, reading it is not necessary for understanding this post.
