@@ -34,7 +34,7 @@ If you decide to choose consistency, the outcome is very simple: atomicity[^2] i
 
 However, if you decide to choose availability, all reads and writes will be accepted. This means that in the case of a read, stale data could be returned, and in the case of a write, there could be conflicts which later need to be resolved.
 
-There are lots of applications where being unavailable can cost more than being inconsistent. I will go into a bit more detail here with my personal experience working at at [brack.ch](https://brack.ch), one of Switzerlands largest e-commerce websites. 
+There are lots of applications where being unavailable can cost more than being inconsistent. I will go into a bit more detail here with my personal experience working at [brack.ch](https://brack.ch), one of Switzerlands largest e-commerce websites. 
 
 With e-commerce, the most obvious question we face is "do we keep our customers shopping carts consistent or do we keep them available?" For example if two users are adding to a cart on the same account but their requests hit different servers, do we strive for consistency or resolve conflicts when a customer reaches the checkout stage? In scenarios like this, the answer is to choose **availability**. For those more interested Amazon's cart is another example of [this](http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf).
 
