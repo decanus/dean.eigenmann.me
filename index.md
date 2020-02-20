@@ -20,4 +20,5 @@ I started my software development career with an internship at [spacebyte](https
 
 *Selected Posts:*
 
- - [Time, clocks, and order.](https://dean.eigenmann.me/blog/2020/01/06/time-clocks-and-order/) (2020)
+ - [Time, clocks, and order.](./_posts/2020-01-06-time-clocks-and-order.md) (2020)
+ - [DNS based discovery](https://vac.dev/dns-based-discovery) (2020)
