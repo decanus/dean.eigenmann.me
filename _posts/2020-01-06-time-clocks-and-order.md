@@ -8,6 +8,7 @@ newsletter:    https://decanus.substack.com/p/time-clocks-and-order
 image:         /images/time-clocks-order/lamport_clock.png
 tags:          distributed-systems newsletter
 redirect_from: /blog/2020/01/06/time-clocks-and-order/
+permalink:     /blog/time-clocks-and-order/
 ---
 
 Having decided to start a newsletter on distributed systems to get back into writing, I thought about what a good first subject would be. Maybe [AZTEC protocol](https://www.aztecprotocol.com/), a confidential transactions protocol on Ethereum or [Paxos](http://lamport.azurewebsites.net/pubs/lamport-paxos.pdf), the consensus protocol designed by Leslie Lamport with a reputation of being hard to grasp. Those are all topics I will most likely write about in the future. But, for my first post I decided to go with something more fundamental: the notion of time in a distributed system and the ordering of events.
