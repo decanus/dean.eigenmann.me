@@ -7,8 +7,6 @@ categories:    blog
 image:         /images/cap-theorem/cap-hat.png
 newsletter:    https://distsys.substack.com/p/the-cap-theorem
 tags:          distributed-systems newsletter
-redirect_from: /blog/2020/02/17/cap-theorem/
-permalink:     /blog/cap-theorem/
 ---
 
 In this post, we will look at the CAP theorem. If you’ve read almost anything about distributed systems, you’ve probably encountered it. But what is it really and where did it come from? In this article we will discuss what it is, its origins and some common misconceptions around the theorem itself.
