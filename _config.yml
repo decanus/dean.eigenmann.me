@@ -19,6 +19,10 @@ external_headers:
 include:
   - blog
 
+collections:
+  posts:
+    permalink: /:collection/:name
+
   # Google services
 google_verification:
 # Use either direct GA implementation or set up GTM account
