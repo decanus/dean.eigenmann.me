@@ -4,6 +4,7 @@ title:      Network Addresses in Ethereum
 date:       2020-01-21 14:30:00
 summary:    An overview of multiaddrs, ENR & enodes.
 categories: blog
+tags:       ethereum
 ---
 
 After a discussion with Felix Lange, I decided it would make sense to write this blog post about the various types of network addresses you may encounter in the ethereum ecosystem and discuss the differences between them. I myself had some misconceptions about them and therefore thought clarification could be useful.

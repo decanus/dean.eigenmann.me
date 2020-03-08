@@ -39,6 +39,12 @@ layout: default
   {{ content }}
 </article>
 
+<p class="post-tags small">Tags:
+  {% for tag in page.tags %}
+  <a href="/tag/{{ tag }}"><code class="highligher-rouge">{{ tag }}</code></a>&nbsp;
+  {% endfor %}
+</p>
+
 {% if site.show_sharing_icons %}
   {% include share_buttons.html %}
 {% endif %}

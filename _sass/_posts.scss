@@ -43,6 +43,18 @@
   font-style: italic;
 }
 
+.post-tags {
+  width: auto;
+  font-weight: 300;
+  margin: 0;
+  padding: .25em 0;
+}
+
+.post-tags a {
+  color: #7a7a7a;
+  text-decoration: none;
+}
+
 .related-post-title {
   border-bottom: thin solid #f3f3f3;
 }
