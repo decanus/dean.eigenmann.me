@@ -8,7 +8,7 @@ image: /images/cap-theorem/cap-hat.png
 newsletter: https://distsys.substack.com/p/the-cap-theorem
 tags: distributed-systems newsletter
 permalink: /blog/cap-theorem/
-redirect-from:
+redirect_from:
  - /blog/2020/02/17/cap-theorem/
 ---
 
