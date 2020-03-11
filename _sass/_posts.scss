@@ -43,6 +43,16 @@
   font-style: italic;
 }
 
+.posts .post .tags {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-style: normal;
+}
+
+.posts .post .tags a {
+  text-decoration: none;
+}
+
 .post-tags {
   width: auto;
   font-weight: 300;
