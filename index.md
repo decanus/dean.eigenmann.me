@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Hey!
+# Hey! 👋
 
 I am a researcher at [vac](https://vac.dev) ([status](https://status.im)). I also work on [ens](https://ens.domains) as a developer.
 I am interested in distributed systems and write a [newsletter](/newsletter/) on them.
