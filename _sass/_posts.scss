@@ -6,12 +6,12 @@
 .posts .post {
   margin-bottom: 0.75em;
   border-bottom: thin solid #f3f3f3;
-}
 
-.posts .post:last-child {
-  border-bottom: none;
-  margin-bottom: .375em;
-  padding-bottom: 0;
+  &:last-child {
+    border-bottom: none;
+    margin-bottom: .375em;
+    padding-bottom: 0;
+  }
 }
 
 .post-link .post-title {
@@ -47,10 +47,10 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-style: normal;
-}
 
-.posts .post .tags a {
-  text-decoration: none;
+  a {
+    text-decoration: none;
+  }
 }
 
 .post-tags {
