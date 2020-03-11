@@ -5,7 +5,7 @@ layout: default
 # Hey!
 
 I am a researcher at [vac](https://vac.dev) ([status](https://status.im)). I also work on [ens](https://ens.domains) as a developer.
-I am interested in distributed systems and write a [newsletter](https://distsys.substack.com/) on them.
+I am interested in distributed systems and write a [newsletter](/newsletter/) on them.
 I try to do my research transparently on [github](github.com/decanus/research). I enjoy reading lots of [papers](/papers-i-read/),
 and occasionally [summarize them](https://github.com/decanus/research/issues/10).
 
