@@ -8,6 +8,10 @@ tags: papers-i-read
 
 ...this list might also include blog posts, RFCs, etc. This list is not exhaustive.
 
+## Consistency 
+  - [You Can’t Sacrifice Partition Tolerance](http://codahale.com/you-cant-sacrifice-partition-tolerance/)
+  - [Brewer's conjecture and the feasibility of consistent, available, partition-tolerant web services](https://users.ece.cmu.edu/~adrian/731-sp04/readings/GL-cap.pdf)
+
 ## DHT / Discovery
  - [Kademlia: A Peer-to-peer Information System Based on the XOR Metric](https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf)
  - [Chord: A Scalable Peer-to-peer Lookup Protocol](https://pdos.csail.mit.edu/papers/ton:chord/paper-ton.pdf)
