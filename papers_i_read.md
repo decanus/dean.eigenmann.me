@@ -8,6 +8,9 @@ tags: papers-i-read
 
 ...this list might also include blog posts, RFCs, etc. This list is not exhaustive.
 
+## Consensus
+ - [Impossibility of Distributed Consensus with One Faulty Process](https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf)
+
 ## Consistency 
   - [You Can’t Sacrifice Partition Tolerance](http://codahale.com/you-cant-sacrifice-partition-tolerance/)
   - [Brewer's conjecture and the feasibility of consistent, available, partition-tolerant web services](https://users.ece.cmu.edu/~adrian/731-sp04/readings/GL-cap.pdf)
