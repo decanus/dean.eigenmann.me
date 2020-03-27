@@ -5,6 +5,7 @@ date:       2020-03-27 18:00:00
 summary:    A look at asynchronous algorithms and their inability to solve the consensus problem.
 categories: blog
 tags:       distributed-systems newsletter
+newsletter: https://distsys.substack.com/p/impossibility-of-distributed-consensus
 ---
 
 > A look at consensus, asynchronous algorithms and the consensus problem.
@@ -19,7 +20,7 @@ Reaching agreement is not that hard. Well, at least it isn't if all nodes as wel
 
 ## The Problem
 
-Let's first look at the **consensus problem**. What kind of properties would an algortihm need to satisfy in order to solve it?
+Let's first look at the **consensus problem**. What kind of properties would an algorithm need to satisfy in order to solve it?
 
  - **Safety** - Nodes will agree on the same value, which was proposed by one of the nodes.
  - **Liveness** - Eventually, every non-faulty node should decide upon some value.
@@ -46,7 +47,7 @@ These three actors traditionally participate in 3 rounds. These are:
  - **Vote:** Acceptors listen to the leader's proposed value, validate it and then propose it as the next valid value.
  - **Decide:** If enough Acceptors proposed the new value, then the value becomes decided upon, else we restart.
 
-So this is a very brief look at traditional consenus, now lets continue.
+So this is a very brief look at traditional consensus, now let’s continue.
 
 ## The System
 
@@ -58,9 +59,9 @@ As we see with the above described system, we cannot detect all faults therefore
 
 ## The Proof
 
-The paper contains two seperate lemmas that together show that a consensus algorithm can remain forever undecided in an asynchronous enviroment. 
+The paper contains two separate lemmas that together show that a consensus algorithm can remain forever undecided in an asynchronous environment. 
 
-The first lemma (which is actually the second in the paper), states that the algorithm can't simply query the network for the initial state due to the fact that failures would prevent this from completing. Assuming that the states of nodes are seperate, then the value nodes reach agreement upon depends on the order in which messages are received. This is due to the fact that asynchronous systems are non-deterministic.
+The first lemma (which is actually the second in the paper), states that the algorithm can't simply query the network for the initial state due to the fact that failures would prevent this from completing. Assuming that the states of nodes are separate, then the value nodes reach agreement upon depends on the order in which messages are received. This is due to the fact that asynchronous systems are non-deterministic.
 
 And finally, the second lemma (the third discussed lemma in the paper), states if you start with an undecided state, then it is always possible to reach another undecided state by delaying pending messages. This can be done perpetually even if all messages are eventually delivered. That means that no protocol can guarantee that something will eventually be decided upon.
 
@@ -72,9 +73,9 @@ So let's look at **synchrony assumptions**, what does this mean and how do we ac
 
 Raft nodes wait for a leader to propose a value. If a specific node doesn't hear a proposed value in a certain amount of time, it will propose itself to become the new leader. If other nodes also haven't heard a proposed value, they will agree and elect the node a new leader. The leader then proposes new values, and tries to reach consensus.
 
-Now how about **non-deterministic** consensus, what does that even mean? Algorithms that use **synchrony assumptions** require that all nodes know eachother and are able to communicate with eachother, but this is impossible for a distributed system like Bitcoin. Consensus algorithms that are non-determinisitic are refered to often as **probabilistic**, meaning that instead of agreeing whether a value is correct. They agree on the probability that some value is correct. 
+Now how about **non-deterministic** consensus, what does that even mean? Algorithms that use **synchrony assumptions** require that all nodes know eachother and are able to communicate with eachother, but this is impossible for a distributed system like Bitcoin. Consensus algorithms that are non-deterministic are referred to often as **probabilistic**, meaning that instead of agreeing whether a value is correct. They agree on the probability that some value is correct. 
 
-This is how **Nakomoto consensus** works, it does away with the traditional methods of achieving consenus and instead opts for a more simplified and scalable (with respect to participant inclusion) algorithm. It does away with electing leaders. Instead all nodes try to solve a known computationally hard mathematical problem. When the problem has been solved, the next value can be added. This forms a chain of values. Nodes choose to continue building on the chain of values that have the most combined computational power, preventing from branches with invalid values to be selected.
+This is how **Nakomoto consensus** works, it does away with the traditional methods of achieving consensus and instead opts for a more simplified and scalable (with respect to participant inclusion) algorithm. It does away with electing leaders. Instead all nodes try to solve a known computationally hard mathematical problem. When the problem has been solved, the next value can be added. This forms a chain of values. Nodes choose to continue building on the chain of values that have the most combined computational power, preventing from branches with invalid values to be selected.
 
 *For a more accurate and longer explanation of Nakomoto consensus I recommend reading ["The Nakamoto Consensus Algorithm"](https://medium.com/nakamo-to/nakamoto-consensus-21cd304f96ff) by William Nester.*
 
