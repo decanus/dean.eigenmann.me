@@ -9,7 +9,7 @@ tags:       distributed-systems newsletter
 
 > A look at consensus, asynchronous algorithms and the consensus problem.
 
-First things first, this post took me way longer to write than I thought it would. Reason being the subtelty of what I decided to write about along with other factors. Hopefully my next posts will be on a more regular schedule again!
+First things first, this post took me way longer to write than I thought it would. Reason being the subtlety of what I decided to write about along with other factors. Hopefully my next posts will be on a more regular schedule again!
 
 Let's talk consensus. Consensus is the process of reaching agreement -- a fundamental issue of distributed systems laying at the core of countless algorithms. Agreement upon some value or state is a common requirement.
 
