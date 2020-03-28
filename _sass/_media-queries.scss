@@ -42,6 +42,12 @@
   .social-icons-right {
     text-align: right;
   }
+  
+  p, dl, ol, ul {
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 1.2rem;
+  }
 }
 
 @media screen and (min-width: $viewport-medium) {
