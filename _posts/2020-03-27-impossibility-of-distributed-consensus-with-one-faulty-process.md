@@ -4,7 +4,7 @@ title:      Impossibility of Distributed Consensus with One Faulty Process
 date:       2020-03-27 18:00:00
 summary:    A look at asynchronous algorithms and their inability to solve the consensus problem.
 categories: blog
-tags:       distributed-systems newsletter
+tags:       distributed-systems newsletter consensus
 newsletter: https://distsys.substack.com/p/impossibility-of-distributed-consensus
 ---
 
