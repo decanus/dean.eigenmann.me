@@ -43,11 +43,7 @@
     text-align: right;
   }
   
-  p, dl, ol, ul {
-    font-size: 1.2rem;
-    margin-top: 0;
-    margin-bottom: 1.2rem;
-  }
+
 }
 
 @media screen and (min-width: $viewport-medium) {
@@ -66,5 +62,13 @@
   em img {
     max-width: $measure-width + 14;
     margin-left: -7em;
+  }
+}
+
+@media screen and (max-width: $viewport-small) {
+  p, dl, ol, ul {
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 1.2rem;
   }
 }
