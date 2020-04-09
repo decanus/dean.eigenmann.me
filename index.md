@@ -22,4 +22,4 @@ I started my software development career with an internship at [spacebyte](https
 
  - [Time, clocks, and order.](./_posts/2020-01-06-time-clocks-and-order.md) (2020)
  - [DNS based discovery](https://vac.dev/dns-based-discovery) (2020)
- - [From Kademlia to Discv5](https://vac.dev/kademlia-to-discv5)
+ - [From Kademlia to Discv5](https://vac.dev/kademlia-to-discv5) (2020)
