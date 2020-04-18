@@ -1,19 +1,20 @@
 <header class="site-header px2 px-responsive">
   <div class="mt2 wrap">
     <div class="measure">
-      <a href="{{ "/" | relative_url }}" class="site-title">
-      {% if site.header_image %}
-        <img src="{{ site.header_image }}" class="header-image"/>
-        &nbsp;
-      {% endif %}
+      <div>
+        <a href="{{ "/" | relative_url }}" class="site-title">
         <div class="title">
           {{ site.title }}
         </div>
-      </a>
-      <nav class="site-nav">
+        {% if site.header_image %}
+          &nbsp; <img src="{{ site.header_image }}" class="header-image"/>
+        {% endif %}
+        </a>
+      </div>
+
+      <nav class="site-nav left">
         {% include navigation.html %}
       </nav>
-      <div class="clearfix"></div>
       {% if site.show_social_icons %}
         {% include social_links.html %}
       {% endif %}

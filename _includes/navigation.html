@@ -1,7 +1,5 @@
 {% assign page_paths = site.external_headers %}
 
-{&nbsp;
-
 {% for page in page_paths %}
 <a class="nav-active" href="{{ page.link }}" target="_blank">{{ page.title }}</a>
 {% endfor %}
@@ -18,8 +16,5 @@
     {% elsif item.title and page.title == item.title or item.title %}
         <a class="nav-active" href="{{ item.url | relative_url }}">{{ item.title }}</a>
     {% endif %}
-
     
 {% endfor %}
-
-&nbsp;}

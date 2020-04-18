@@ -11,7 +11,9 @@
 }
 
 .site-header .site-title {
-  display: inline-block;
+  width: 100%;
+  text-align: left;
+  display: block;
   font-size: $h2;
   text-decoration: none;
 }
@@ -74,4 +76,12 @@
 
 .social-icons-right a {
   text-decoration: none;
+}
+
+.site-nav a+a {
+  margin-left: 0;
+}
+
+.site-nav a {
+  margin-right: 1rem;
 }
