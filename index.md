@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: page
+title: Hey! 👋
 ---
-
-# Hey! 👋
 
 I am a researcher at [vac](https://vac.dev) ([status](https://status.im)) and co-founder of [dialectic](http://dialectic.ch/). I also work on [ens](https://ens.domains) as a developer.
 I am interested in distributed systems and write a [newsletter](/newsletter/) on them.
