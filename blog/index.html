@@ -5,7 +5,7 @@ title: Blog
 {% assign posts_count = paginator.posts | size %}
 
 <div class="home">
-    <div class="posts py3">
+    <div class="posts py1">
         {% for post in paginator.posts %}
             {% include post_list.html %}
         {% endfor %}

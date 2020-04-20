@@ -1,4 +1,4 @@
-@media screen and (min-width: $viewport-small) {
+@media screen and (max-width: $viewport-small) {
   html {
     font-size: 16px;
   }
@@ -12,8 +12,11 @@
     text-align: left;
   }
 
-  .site-nav {
-    margin-top: 0;
+  .site-header .site-nav {
+    margin-bottom: 0.5em;
+    display: block;
+    width: 100%;
+    text-align: left;
   }
 
   .site-header a {
@@ -22,12 +25,15 @@
 
   .site-header .site-title {
     font-size: $h3;
-    float: left;
   }
 
-  .site-header .site-nav {
-    float: right;
-    margin-top: .25rem;
+  .social-icons-right {
+    margin-top: .5em;
+    text-align: left;
+  }
+
+  .site-nav a {
+    margin-right: .75rem;
   }
 
   blockquote {
@@ -35,12 +41,8 @@
     padding: $space-3;
   }
 
-  .social-icons-left {
-    text-align: left;
-  }
-
   .social-icons-right {
-    text-align: right;
+    text-align: left;
   }
   
 

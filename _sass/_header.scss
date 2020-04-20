@@ -5,13 +5,15 @@
 
 .site-header a {
   color: $header-color;
-  font-size: $h3;
+  font-size: $h4;
   font-weight: $header-font-weight;
   background-image: none;
 }
 
 .site-header .site-title {
-  display: inline-block;
+  width: 100%;
+  text-align: left;
+  display: block;
   font-size: $h2;
   text-decoration: none;
 }
@@ -19,6 +21,7 @@
 .site-header .site-title .title {
   display: inline-block;
   vertical-align: top;
+  margin-right: 0.5rem
 }
 
 .site-header .header-image {
@@ -54,7 +57,11 @@
 }
 
 .site-nav a + a {
-  margin-left: $nav-link-padding-x;
+  margin-left: 0;
+}
+
+.site-nav a {
+  margin-right: 0.5rem;
 }
 
 .site-header a:hover,
@@ -74,4 +81,8 @@
 
 .social-icons-right a {
   text-decoration: none;
+}
+
+.site-nav a+a {
+  margin-left: 0;
 }
