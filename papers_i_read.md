@@ -26,6 +26,7 @@ tags: papers-i-read
 ## Messaging
  - [SoK: Secure Messaging](http://cacr.uwaterloo.ca/techreports/2015/cacr2015-02.pdf)
  - [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
+ - [Scribe: A large-scale and decentralized application-level multicast infrastructure](https://people.mpi-sws.org/~druschel/publications/Scribe-jsac.pdf)
  
 ## Sharding
  - [Cross shard transactions at 10 million requests per second](https://blogs.dropbox.com/tech/2018/11/cross-shard-transactions-at-10-million-requests-per-second/)
