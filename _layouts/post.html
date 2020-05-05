@@ -30,7 +30,7 @@ layout: default
 
 <article class="post-content">
 
-  {% if page.image and !page.hide_image %}
+  {% if page.image and page.hide_image == nil %}
     <p class="post-image">
       <img src="{{ page.image }}" alt="{{ page.title }}">
     </p>
