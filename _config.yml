@@ -7,13 +7,15 @@ url:         "https://dean.eigenmann.me"
 date_format: "%b %-d, %Y"
 header_image: /images/emoji.png
 header_pages:
- - newsletter.html
- - papers_i_read.md
  - blog/index.html
 
 external_headers:
  - link: https://github.com/decanus/research
    title: Research
+ - link: https://distsys.substack.com/
+   title: Newsletter
+ - link: https://twitter.com/deaneigenmann
+   title: Twitter
 
 include:
   - blog
