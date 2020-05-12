@@ -1,5 +1,5 @@
 # Site settings
-
+remote_theme: decanus/light
 title:       Dean Eigenmann
 author:      Dean Eigenmann
 description: ""
@@ -39,11 +39,7 @@ redcarpet:
 permalink:    pretty
 paginate:     4
 paginate_path: "/blog/:num/"
-sass:
-  style: compressed
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
+
   # https://github.com/jekyll/jekyll/issues/2938
 exclude:
   - Gemfile
