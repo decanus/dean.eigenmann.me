@@ -3,9 +3,7 @@ layout: page
 ---
 
 I am a researcher at [vac](https://vac.dev) ([status](https://status.im)) and co-founder of [dialectic](http://dialectic.ch/). I also work on [ens](https://ens.domains) as a developer.
-I am interested in distributed systems and write a [newsletter](/newsletter/) on them.
-I try to do my research transparently on [github](github.com/decanus/research). I read lots of papers,
-and occasionally [summarize them](https://github.com/decanus/research/).
+I am interested in distributed systems and write a [newsletter](/newsletter/) on them. I read lots of papers, and occasionally [summarize them](https://github.com/decanus/research/). Most of my work can be found on [github](https://github.com/decanus/).
 
 Previously I worked as a security researcher at [ZK Labs](https://zklabs.io/) and as a developer at [brack.ch](https://brack.ch).
 I started my software development career with an internship at [spacebyte](https://spacebyte.com/).
