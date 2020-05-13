@@ -18,9 +18,6 @@ external_headers:
  - link: https://twitter.com/deaneigenmann
    title: Twitter
 
-include:
-  - blog
-
 # Use either direct GA implementation or set up GTM account
 # - using both will skew your data (leave blank to not use at all)
 google_analytics: UA-156157914-1
