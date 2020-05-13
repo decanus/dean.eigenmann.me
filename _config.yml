@@ -27,6 +27,7 @@ google_analytics: UA-156157914-1
 
 # Preview image for social media aka og:image and twitter:image
 post_preview_image: true
+enable_mathjax: true
 
 # Social icons
 twitter_username: DeanEigenmann
