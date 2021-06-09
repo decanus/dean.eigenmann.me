@@ -1,12 +1,12 @@
 ---
 layout: page
 ---
-
-Currently I am the founder of [Soapbox](https://soapbox.social), I also co-founded [dialectic](http://dialectic.ch/) and occasionally review pull-requests for [ens](https://ens.domains).
+I co-founded [Dialectic](http://dialectic.ch/) and occasionally review pull-requests for [ENS](https://ens.domains).
 
 I am interested in distributed systems and write a [newsletter](/newsletter/) on them. I read lots of papers, and occasionally [summarize them](https://github.com/decanus/research/). Most of my work can be found on [github](https://github.com/decanus/).
 
 Previously I worked as:
+ - Founder of [Soapbox](https://soapbox.social).
  - Researcher at [vac](https://vac.dev) ([status](https://status.im))
  - Security researcher at [ZK Labs](https://zklabs.io/) 
  - Developer at [brack.ch](https://brack.ch).
