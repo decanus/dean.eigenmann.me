@@ -13,11 +13,12 @@ Previously I worked as:
  - Developer at [brack.ch](https://brack.ch).
  - Internship at [spacebyte](https://spacebyte.com/).
 
-***Selected talks & panels:***
+***Selected talks, panels & podcasts:***
 
 - [Reliable Messaging over Whisper at Web3 Summit](https://www.youtube.com/watch?v=WMPw0dNyNmM) (2019)
 - [All the Truth, an Ethereum Security panel at Devcon5](https://www.youtube.com/watch?v=dHxa7qWZCYo) (2020)
 - [Ultralight Beam](https://www.youtube.com/watch?v=OxEYV3fZ6Pk) (2020)
+- [A Dip into the Mempool & MEV with Project Blanc](https://zeroknowledge.fm/216-2/) (2022)
 
 ***Selected Posts:***
 
