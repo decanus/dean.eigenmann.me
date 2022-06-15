@@ -25,5 +25,6 @@ Previously I worked as:
  - [Time, clocks, and order.](./_posts/2020-01-06-time-clocks-and-order.md) (2020)
  - [DNS based discovery](https://vac.dev/dns-based-discovery) (2020)
  - [From Kademlia to Discv5](https://vac.dev/kademlia-to-discv5) (2020)
+ - [Medici: Dialectic’s Yield Farmer](https://dialectic.ch/editorial/medici-dialectics-yield-farmer) (2022)
 
 If you wish to contact me, you can do so using my [email](mailto:dean@eigenmann.me).
