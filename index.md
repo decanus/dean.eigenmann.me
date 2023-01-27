@@ -8,7 +8,7 @@ I am interested in distributed systems and write a [newsletter](https://distsys.
 Previously I worked as:
  - Founder of [Soapbox](https://soapbox.social).
  - Smart contract developer at [ENS](https://ens.domains).
- - Researcher at [vac](https://vac.dev) ([status](https://status.im))
+ - Researcher at [vac](https://vac.dev) ([status.im](https://status.im))
  - Security researcher at [ZK Labs](https://zklabs.io/) 
  - Developer at [brack.ch](https://brack.ch).
  - Internship at [spacebyte](https://spacebyte.com/).
