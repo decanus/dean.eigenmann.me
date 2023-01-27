@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-I co-founded [Dialectic](http://dialectic.ch/), and do MEV together with the team over at [Project Blanc](http://projectblanc.ch/). Occasionally I review pull-requests for [ENS](https://ens.domains).
+I co-founded [Dialectic](http://dialectic.ch/), and do MEV together with the team over at [Project Blanc](http://projectblanc.ch/). Occasionally I review pull-requests for [ENS](https://ens.domains) & [weiroll](https://github.com/weiroll/weiroll) which I helped develop.
 
 I am interested in distributed systems and write a [newsletter](https://distsys.substack.com/) on them. I read lots of papers, and occasionally [summarize them](https://github.com/decanus/research/). Most of my work can be found on [github](https://github.com/decanus/).
 
