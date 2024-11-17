@@ -11,8 +11,6 @@ header_pages:
  - blog/index.html
 
 external_headers:
- - link: https://distsys.substack.com/
-   title: Newsletter
  - link: https://github.com/decanus
    title: Github
  - link: https://twitter.com/deaneigenmann
