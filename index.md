@@ -2,9 +2,10 @@
 layout: page
 ---
 
-I do MEV together with the team over at [Project Blanc](http://projectblanc.ch/). Occasionally I review pull-requests for [weiroll](https://github.com/weiroll/weiroll) which I helped develop.
+Exploring the onchain ecosystem.
 
 Previously I worked as:
+ - Founder / Engineer [Project Blanc](http://projectblanc.ch/)
  - Co-Founder / Partner [Dialectic](http://dialectic.ch/)
  - Founder of [Soapbox](https://soapbox.social).
  - Smart contract developer at [ENS](https://ens.domains).
