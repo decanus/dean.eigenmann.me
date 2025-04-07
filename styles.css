@@ -1,0 +1,30 @@
+body {
+    line-height: 1.6;
+    font-size: 18px;
+    padding-top: 25px;
+    max-width: 400px;
+    margin: auto;
+    left: 10;
+    right: 10;
+}
+
+h1 {
+    text-align: left;
+    font-size: 24px;
+}
+
+a {
+    color: #888;
+}
+
+code {
+    font-size: 85%;
+}
+
+p {
+    text-align: center;
+}
+
+footer {
+    border-top: 1px solid #888;
+}
